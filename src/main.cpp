@@ -29,6 +29,7 @@ int main() {
     std::cout << "========================\n";
     std::cout << "\nInsert the target hour: ";
     std::cin >> target_time_hours;
+    clear_terminal();
     std::cout << "========================\n";
     std::cout << "C++ MedReminder (24h)\n";
     std::cout << "========================\n";
